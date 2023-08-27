@@ -21,7 +21,9 @@ ul li {
   align-items: center;
 }
 ul li:hover {
-  background: #f3f3f3;
+  background: #dedddd;
+  text-shadow: 2px 2px 5px grey;
+  /* border-top-right-radius: 5px; */
 }
 #list input {
   padding: 0;
@@ -56,17 +58,20 @@ ul li:hover {
   position: absolute;
   top: 2px;
   left: 9px;
-  width: 6px;
-  height: 14px;
+  width: 5px;
+  height: 12px;
   border: solid #fff;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
 #list input:checked + label:before {
-  background: #0079bf;
+  background: #4ca65a;
+  border-radius: 40%;
+  border-color: #24592c;
 } 
 #list input:checked + label {
   text-decoration: line-through;
+  /* font-style: italic; */
 }
 .delete {
   height: 28px;
@@ -79,15 +84,20 @@ ul li:hover {
 }
 h1 {
   text-align: center;
+  text-shadow: 2px 2px 5px grey;
 }
 .add-task {
   width: 100%;
     outline: none;
     font-size: 15px;
     padding: 11px;
-    border: 1px solid #f3f3f3;
+    border: 1px solid #978f8f;
     margin-bottom: 3px;
+    border-radius: 5px;
+    border-radius: 5px;
+    /* opacity: 0.9; */
 }
+
 #total-tasks {
   margin-bottom: 20px;
   font-size: 13px;
